@@ -24,7 +24,7 @@ System.setProperty("webdriver.chrome.driver","C:\\Users\\jessi\\Desktop\\2.Semes
   public void setUp() throws Exception {
     driver = new ChromeDriver();
 //    baseUrl = "http://localhost/";
-    driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+    driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
   }
 
   @Test
